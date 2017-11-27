@@ -21,6 +21,17 @@ time, mark, audio, video {
   list-style-type:none;
 }
 
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
 .clearfix {
   clear: both;
 }
@@ -185,6 +196,8 @@ header {
 .block-introduce-content {
   padding: 45px;
   padding-left: 82px;
+  background: url(images/surfers-co1.png) no-repeat;
+  background-position: 386px 4px;
 }
 
 .block-introduce-content h2 {
@@ -221,7 +234,6 @@ header {
 .menu-introduce ul {
   display: flex;
   flex-direction: row;
-  padding-bottom: 10px;
   border-bottom: 1px solid #D8D8D8;
   margin-bottom: 25px;
 }
@@ -229,6 +241,15 @@ header {
 .menu-introduce ul li{
   margin: 0;
   margin-right: 30px;
+  box-sizing: border-box;
+  padding:5px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.menu-introduce ul li:hover{
+  border-bottom: 2px solid #3889FF;
+  top: 11px;
+  box-sizing: border-box;
 }
 
 .menu-introduce ul li a {
@@ -238,6 +259,7 @@ header {
   font-weight: 700;
   text-align: left;
   text-transform: uppercase;
+
 }
 
 .menu-introduce p {
@@ -492,7 +514,7 @@ header {
 }
 
 .slide-item:nth-child(even) {
-  z-index: 100;
+  z-index: 1;
   position: relative;
   margin-left: -3%;
   margin-top: 3%;
