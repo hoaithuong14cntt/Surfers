@@ -57,9 +57,6 @@ header {
   text-align: left;
   transform: scaleX(1.0027);
 }
-.menu-bar {
-  /*width: 48.72%;*/
-}
 
 .menu-bar ul {
   display: flex;
@@ -106,6 +103,7 @@ header {
   top: 10px;
   left: 10px;
 }
+
 .icon-center {
   padding-left: 4px;
 }
@@ -113,6 +111,7 @@ header {
 .title {
   margin-top: 130px;
 }
+
 .title h1 {
   font-family: PlayfairDisplay;
   color:  #000000;
@@ -153,6 +152,7 @@ header {
   letter-spacing: 34px;
   bottom: 22px;
 }
+
 .block-introduce-images{
   display: flex;
   flex-direction: row;
@@ -162,6 +162,7 @@ header {
   background: url('images/Corner1.png') no-repeat;
   width: 500px;
 }
+
 .block-introduce-images ul li {
   border:2px solid #CBCBCB;
   margin-bottom: 3px;
@@ -175,10 +176,12 @@ header {
   width: 65px;
   height: 65px;
 }
+
 .block-introduce-images ul {
   padding-top: 157px;
   margin-left: -30px;
 }
+
 .block-introduce-content {
   padding: 45px;
   padding-left: 82px;
@@ -197,6 +200,7 @@ header {
 .rate {
   margin-bottom: 40px;
 }
+
 .rate ul {
   display: flex;
   flex-direction: row;
@@ -205,9 +209,11 @@ header {
 .rate ul li {
   margin: 0;
 }
+
 .menu-introduce {
   margin-bottom: 36px;
 }
+
 .menu-introduce ul {
   display: flex;
   flex-direction: row;
@@ -314,6 +320,7 @@ header {
   left: 10%;
   top: -2%;
 }
+
 .introduce-video-content {
   display: flex;
   flex-direction: row;
@@ -373,6 +380,7 @@ header {
   text-align: left;
   border-bottom: 1px solid #3998FF;
 }
+
 .introduce-video-content {
   position: absolute;
   top: 450px;
@@ -380,11 +388,6 @@ header {
 
 .clip {
   display: inline-block;
-/*  position: absolute;
-  top: 765px;
-  right: 350px;
-  width: 100%;*/
-
 }
 
 .clip img {
@@ -401,6 +404,7 @@ header {
 .ourteam {
   margin-bottom: 140px;
 }
+
 .ourteam-slide {
   display: flex;
   flex-direction: row;
@@ -416,11 +420,10 @@ header {
   top: 65px;
   z-index: -1;
 }
+
 .ourteam-slide-content {
   width: calc((1030*100%)/1170);
   padding-left: 6%;
- /* display: flex;
-  flex-direction: row;*/
 }
 
 .slide-item {
@@ -448,6 +451,7 @@ header {
   border-radius: 50%;
   margin: 25px 0 15px 30%;
 }
+
 .ot-sl-ct-title {
   font-family: Montserrat;
   color:  #00b0ff;
@@ -514,6 +518,7 @@ header {
 .latest {
   margin-bottom: 175px;
 }
+
 .latest-header {
   text-align: center;
 }
@@ -667,6 +672,7 @@ footer {
 .form-mail form {
   position: relative;
 }
+
 .form-mail label {
   font-family: Montserrat;
   color:  #ffffff;
@@ -707,6 +713,7 @@ footer {
   right: -84%;
   padding-top: 4px;
 }
+
 @media screen and (min-width: 1920px) {
   .clip img {
     left: 55%;
