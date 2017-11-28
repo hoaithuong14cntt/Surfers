@@ -253,6 +253,10 @@ header {
   box-sizing: border-box;
 }
 
+.menu-introduce ul li:hover a{
+  color: #000;
+}
+
 .menu-introduce ul li a {
   font-family: Raleway;
   color:  #9F9F9F;
