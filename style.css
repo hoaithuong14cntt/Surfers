@@ -768,11 +768,3 @@ footer {
   right: -84%;
   padding-top: 4px;
 }
-
-@media screen and (min-width: 1920px) {
-  /*header {
-    background-color: #fff;
-    position: relative;
-    margin-bottom: 20%;
-  }*/
-} 
