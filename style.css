@@ -349,7 +349,7 @@ header {
   position: absolute;
   z-index: -1;
   left: 20%;
-  top: -2%;
+  top: 2%;
 }
 
 .introduce-video-content {
