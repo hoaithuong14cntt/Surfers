@@ -337,6 +337,7 @@ header {
 .introduce-video {
   position: relative;
   height: 1165px;
+  margin-bottom: 10%;
 }
 
 .introduce-video-background p {
@@ -347,7 +348,7 @@ header {
   position: absolute;
   z-index: -1;
   left: 20%;
-  top: 2%;
+  top: 5%;
 }
 
 .introduce-video-content {
@@ -355,7 +356,7 @@ header {
   flex-direction: row;
   width: 40%;
   background: #fff;
-  padding: 100px;
+  padding: 100px 100px 0 0;
 }
 
 .introduce-video-empty {
@@ -365,9 +366,10 @@ header {
 .introduce-video-background {
   background-image: url(images/overlay.png);
   width: 100%;
-  height: 900px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   position: relative;
 }
 
@@ -412,7 +414,8 @@ header {
 
 .introduce-video-content {
   position: absolute;
-  top: 450px;
+  top: 50%;
+  width: 50%;
 }
 
 .clip {
@@ -422,8 +425,8 @@ header {
 .clip img {
   width: 26%;
   position: absolute;
-  left: 60%;
-  top: 45%;
+  left: 55%;
+  top: 60%;
   box-shadow: 10px 24px 51px #D0D0D0;
 }
 
@@ -626,6 +629,9 @@ header {
   flex-direction: row;
 }
 
+.wrapper-contact {
+  margin-bottom: -12%;
+}
 .instagram img {
   width: 619px;
   height: 700px;
@@ -655,8 +661,8 @@ header {
 footer {
   background-color: #000;
   color: #fff;
-  position: relative;
-  bottom: 215px;
+  /*position: relative;*/
+  /*bottom: 215px;*/
   z-index: -1;
   padding-bottom: 70px;
 }
@@ -724,6 +730,10 @@ footer {
   background: none;
   border-bottom: 2px solid #4E4E4E;
   padding-left: 30px;
+  color: white;
+}
+.search:focus{
+  outline: none;
 }
 
 .form-mail img {
@@ -751,16 +761,6 @@ footer {
 }
 
 @media screen and (min-width: 1920px) {
-  .clip img {
-    left: 55%;
-    top: 65%;
-  }
-
-  .introduce-video-background p {
-    left: 24%;
-    top: 5%;
-  }
-
   header {
     background-color: #fff;
     position: relative;
