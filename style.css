@@ -377,6 +377,7 @@ header {
   width: 354px;
   height: 433px;
   background-color: #fff;
+  text-align: center;
 }
 
 .introduce-video-cnt h3 {
@@ -389,7 +390,6 @@ header {
 }
 
 .introduce-video-cnt img {
-  padding-left: 50%;
   margin-bottom: 30px;
 }
 
@@ -761,9 +761,9 @@ footer {
 }
 
 @media screen and (min-width: 1920px) {
-  header {
+  /*header {
     background-color: #fff;
     position: relative;
     margin-bottom: 20%;
-  }
+  }*/
 } 
