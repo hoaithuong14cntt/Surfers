@@ -537,6 +537,7 @@ header {
   height: 50px;
   margin-top: 10%;
   position: relative;
+  cursor: pointer;
 }   
 
 .pre-button img {
