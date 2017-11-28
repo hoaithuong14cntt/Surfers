@@ -673,6 +673,9 @@ footer {
   text-align: right;
 }
 
+.category a{
+  color: #fff;
+}
 .category ul {
   margin-right: 0;
   padding: 4% 0;
