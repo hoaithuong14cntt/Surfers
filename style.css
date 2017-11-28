@@ -478,7 +478,8 @@ header {
   color: #fff;
 }
 
-.slide-item:hover > p.ot-sl-ct-title {
+.slide-item:hover > p.ot-sl-ct-title,
+.slide-item:hover > p.ot-sl-ct-instagram {
   color: #ffffff;
 }
 
@@ -662,8 +663,6 @@ header {
 footer {
   background-color: #000;
   color: #fff;
-  /*position: relative;*/
-  /*bottom: 215px;*/
   z-index: -1;
   padding-bottom: 70px;
 }
@@ -680,10 +679,16 @@ footer {
 .category ul {
   margin-right: 0;
   padding: 4% 0;
+/*  margin-right: 18%;
+  margin-left: 10%;*/
 }
 
 .catagory-ul-left {
   width: 50%;
+}
+
+.catagory-ul-right {
+
 }
 .category ul li img {
   display: inline-block;
