@@ -173,6 +173,12 @@ header {
   flex-direction: row;
 }
 
+.board1,
+.board2,
+.board3 {
+  display: none;
+}
+
 .detail-images {
   background: url('images/Corner1.png') no-repeat;
   width: 500px;
@@ -190,7 +196,7 @@ header {
   box-sizing: border-box;
 }
 
-.block-introduce-images ul li:hover {
+.block-introduce-images ul li.active {
   border: 3px solid #3998FF;
   box-sizing: border-box;
 }
