@@ -55,6 +55,9 @@ header {
 /*.menu-fixed {
 
 }*/
+.ourteam-slide-content {
+  display: none;
+}
 
 .wrapper-menu-bar {
   display: flex;
