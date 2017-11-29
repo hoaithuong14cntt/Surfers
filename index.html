@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Surfers</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:400,400i|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
@@ -47,7 +48,7 @@
           <img class="board" src="images/Board.png" alt="">
           <img class="board1" src="images/board1.png" alt="">
           <img class="board2" src="images/board2.png" alt="">
-          <img class="board3" src="images/board3.png" alt="">
+          <img class="board3" src="images/board1.png" alt="">
         </div>
         <ul>
           <li id="board"><img src="images/Photo.png" alt=""></li>
@@ -102,7 +103,13 @@
       <div class="introduce-video-background">
         <p>ABOUT US</p>
         <div class="clip">
-          <img src="images/video1.png" alt="video">
+          <video id="video">
+            <source src="images/mov_bbb.mp4" type="video/mp4">
+            <source src="images/mov_bbb.ogg" type="video/ogg">
+          </video>
+          <div class="play-button">
+            <button><i class="fa fa-play"></i></button> 
+          </div>
         </div>
       </div>
       <div class="introduce-video-content ">
@@ -228,40 +235,30 @@
   </div>
   <footer> <!-- footer -->
     <div class="category container">
-      <ul class="catagory-ul-left">
+      <ul>
         <li>
-          <img src="images/Waves-col-2.png" alt="">
-          <p><a href="/" title="">About</a></p>
+          <a href="/" title="">About</a>
         </li>
         <li>
-          <img src="images/Waves-col-2.png" alt="">
-          <p><a href="/" title="">About</a></p>
+          <a href="/" title="">About</a>
         </li>
         <li>
-          <img src="images/Waves-col-2.png" alt="">
-          <p><a href="/" title="">About</a></p>
+          <a href="/" title="">About</a>
         </li>
         <li>
-          <img src="images/Waves-col-2.png" alt="">
-          <p><a href="/" title="">About</a></p>
-        </li>
-      </ul>
-      <ul class="catagory-ul-right">
-        <li>
-          <img src="images/Waves-col-2.png" alt="">
-          <p><a href="/" title="">About</a></p>
+          <a href="/" title="">About</a>
         </li>
         <li>
-          <img src="images/Waves-col-2.png" alt="">
-          <p><a href="/" title="">About</a></p>
+          <a href="/" title="">About</a>
         </li>
         <li>
-          <img src="images/Waves-col-2.png" alt="">
-          <p><a href="/" title="">About</a></p>
+          <a href="/" title="">About</a>
         </li>
         <li>
-          <img src="images/Waves-col-2.png" alt="">
-          <p><a href="/" title="">About</a></p>
+          <a href="/" title="">About</a>
+        </li>
+        <li>
+          <a href="/" title="">About</a>
         </li>
       </ul>
     </div>
@@ -284,5 +281,6 @@
   </footer>
   <script src="js/tabs.js" type="text/javascript" charset="utf-8" async defer></script>
   <script src="js/tabs-images.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="js/video.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>

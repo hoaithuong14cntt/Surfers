@@ -97,6 +97,7 @@ header {
 .menu-icon {
   margin: 0;
 }
+
 .menu-icon ul {
   display: flex;
   flex-direction: row;
@@ -409,7 +410,7 @@ header {
   margin-bottom: 15px;
 }
 
-.introduce-video-cnt img {
+.introduce-video-cnt video {
   margin-bottom: 30px;
 }
 
@@ -442,12 +443,34 @@ header {
   display: inline-block;
 }
 
-.clip img {
+.clip video {
   width: 26%;
   position: absolute;
   left: 55%;
   top: 60%;
   box-shadow: 10px 24px 51px #D0D0D0;
+}
+
+.clip .play-button {
+  position: absolute;
+  top: 63%;
+  left: 64%;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.clip .play-button button {
+  border: none;
+  background: none;
+  color: #fff;
+  border: 5px solid #fff;
+  padding: 25px;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+.clip .play-button i {
+  font-size: 30px;
 }
 
 /*==========================
@@ -693,35 +716,12 @@ footer {
 }
 
 .category {
-  display: flex;
-  flex-direction: row;
   text-align: right;
 }
-
-.category a{
+.category ul li a {
+  padding: 0 29px;
+  background: url(images/Waves-col-2.png) no-repeat;
   color: #fff;
-}
-.category ul {
-  margin-right: 0;
-  padding: 4% 0;
-/*  margin-right: 18%;
-  margin-left: 10%;*/
-}
-
-.catagory-ul-left {
-  width: 50%;
-}
-
-.catagory-ul-right {
-
-}
-.category ul li img {
-  display: inline-block;
-  vertical-align: -8px;
-}
-
-.category ul li p {
-  display: inline-block;
 }
 
 .footer-information {
