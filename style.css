@@ -56,7 +56,7 @@ header {
 
 }*/
 .ourteam-slide-content {
-  display: none;
+  transition: display: none, 5s;
 }
 
 .wrapper-menu-bar {
