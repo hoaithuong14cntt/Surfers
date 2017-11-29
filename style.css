@@ -65,7 +65,7 @@ header {
   margin: 32px 130px 0 0;
 }
 
-.logo span {
+.logo a {
   font-family: Montserrat;
   color:  #000000;
   font-size: 30.21px;
