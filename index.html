@@ -7,30 +7,33 @@
   <title>Surfers</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:400,400i|Raleway" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
   <header>
     <div class="wrapper-menu">
-      <div class="wrapper-menu-bar container">
-        <div class="logo">
-          <span>Surfers Co.</span>
-        </div>
-        <div class="menu-bar">
-          <ul>
-            <li><a href="/">Boards</a></li>
-            <li><a href="/">Accessories</a></li>
-            <li><a href="/">Blog</a></li>
-            <li><a href="/">Technology</a></li>
-            <li><a href="/">Team</a></li>
-            <li><a href="/">Dealers</a></li>
-          </ul>
-        </div>
-        <div class="menu-icon">
-          <ul>
-            <li><a href="" title="" class="icon-center"><img src="images/icon-fb.png" alt="Facebook"></a></li>
-            <li><a href="" title=""><img src="images/icon-instagram.png" alt="Instagram"></a></li>
-            <li><a href="" title=""><img src="images/icon-mail.png" alt="Mail"></a></li>
-          </ul>
+      <div class="menu-fixed">
+        <div class="wrapper-menu-bar container">
+          <div class="logo">
+            <span>Surfers Co.</span>
+          </div>
+          <div class="menu-bar">
+            <ul>
+              <li><a href="/">Boards</a></li>
+              <li><a href="/">Accessories</a></li>
+              <li><a href="/">Blog</a></li>
+              <li><a href="/">Technology</a></li>
+              <li><a href="#about-us">Team</a></li>
+              <li><a href="/">Dealers</a></li>
+            </ul>
+          </div>
+          <div class="menu-icon">
+            <ul>
+              <li><a href="" title="" class="icon-center"><img src="images/icon-fb.png" alt="Facebook"></a></li>
+              <li><a href="" title=""><img src="images/icon-instagram.png" alt="Instagram"></a></li>
+              <li><a href="" title=""><img src="images/icon-mail.png" alt="Mail"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="title">
@@ -64,17 +67,22 @@
         </div>
         <div class="menu-introduce">
           <ul>
-            <li><a href="/" title="">Description</a></li>
-            <li><a href="/" title="">Features</a></li>
-            <li><a href="/" title="">Dimensions</a></li>
+            <li id="description">Description</li>
+            <li id="feature">Features</li>
+            <li id="dimension">Dimensions</li>
           </ul>
-          <p>Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression</p>
+          <p class="description">Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression</p>
+          <p class="feature" style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <p class="dimension" style="display: none;">Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="payments">
           <span>$499.99</span>
           <a href="/" title="">Buy now</a>
         </div>
-        <a href="/" title="">View all post</a>
+        <a href="/" title="">View all boards</a>
         <div class="button-slide">
           <ul>
             <li><img src="images/Arrow-left.png" alt=""></li>
@@ -87,7 +95,7 @@
   </header><!-- /header -->
   <div class="content"> <!-- content -->
     <!-- about us -->
-    <div class="introduce-video">
+    <div id="about-us" class="introduce-video">
       <div class="introduce-video-background">
         <p>ABOUT US</p>
         <div class="clip">
@@ -271,5 +279,6 @@
       </div>
     </div>
   </footer>
+  <script src="js/tabs.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
