@@ -110,6 +110,7 @@ header {
   height: 37px;
   background-color: #000;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .menu-icon li a{
@@ -208,7 +209,7 @@ header {
 
 .block-introduce-images ul {
   padding-top: 157px;
-  margin-left: -30px;
+  margin-left: -26px;
 }
 
 .block-introduce-content {
@@ -337,6 +338,7 @@ header {
   background-color: yellow;
   margin: 0;
   padding: 10px;
+  cursor: pointer;
 }
 
 .introduce-num-page{
@@ -487,6 +489,7 @@ header {
   box-shadow: 10px 17px 50px 0px rgba(0, 0, 0, 0.2);
   width: 260px;
   height: 278px;
+  cursor: pointer;
 }
 
 .slide-item:hover {
@@ -599,6 +602,7 @@ header {
 
 .latest-item {
   width: calc((270*100%)/1170);
+  cursor: pointer;
 }
 
 .title-item img {
@@ -656,6 +660,7 @@ header {
 .instagram img {
   width: 619px;
   height: 700px;
+  cursor: pointer;
 }
 
 .instagram p {
@@ -674,6 +679,7 @@ header {
 .facebook {
   margin-top: 115px;
   margin-left: 0;
+  cursor: pointer;
 }
 
 /*========================
